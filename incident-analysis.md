@@ -45,3 +45,4 @@ Transition to X-of-Y: Transition to an X-of-Y DVN configuration (minimum 2-of-3)
 
 Cross-chain Invariants: Implementation of monitoring tools (like the Clojure-based monitor in this repo) to verify Total Supply vs. Locked Assets in real-time.
 
+Proactive Defense: In the monitoring/ directory of this repo, I’ve implemented a Clojure-based listener that tracks cross-chain invariants. It specifically flags discrepancies between 'Burn' events on Source and 'Mint' events on Destination before they can be exploited by an insecure DVN.
