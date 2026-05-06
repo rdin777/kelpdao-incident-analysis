@@ -19,3 +19,9 @@ This repository contains a detailed technical analysis of the largest DeFi incid
 The repository proposes two levels of protection:
 * **On-chain:** Implementing `totalLocked >= totalSupply` checks before executing output.
 * **Off-chain:** Using functional languages ​​(Clojure) to create highly reliable systems for real-time node health monitoring.
+
+  ## Current Status
+  Contextual Relevance: Following the $300 million exploit on April 18, Kelp DAO officially initiated the migration of rsETH from LayerZero to Chainlink CCIP to improve the security of cross-chain transactions.
+
+The Sentinel Advantage: This event confirms my research thesis: standard protocols are not enough. My Sentinel Agent complements solutions like CCIP by providing invariant monitoring at the application logic level, not just the transport layer.
+
