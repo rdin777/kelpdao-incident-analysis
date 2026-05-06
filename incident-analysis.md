@@ -41,6 +41,12 @@ DAO Intervention: Arbitrum DAO is currently voting on a 30,766 ETH grant to supp
 Proposed Mitigation & Industry Shift
 Mandatory Multi-DVN: LayerZero has deprecated support for 1-of-1 DVN configurations.
 
+## Current Status
+Contextual Relevance: Following the $300 million exploit on April 18, Kelp DAO officially initiated the migration of rsETH from LayerZero to Chainlink CCIP to improve the security of cross-chain transactions.
+
+The Sentinel Advantage: This event confirms my research thesis: standard protocols are not enough. My Sentinel Agent complements solutions like CCIP by providing invariant monitoring at the application logic level, not just the transport layer.
+
+
 Transition to X-of-Y: Transition to an X-of-Y DVN configuration (minimum 2-of-3) is now the required standard.
 
 Cross-chain Invariants: Implementation of monitoring tools (like the Clojure-based monitor in this repo) to verify Total Supply vs. Locked Assets in real-time.
